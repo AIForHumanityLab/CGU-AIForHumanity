@@ -1,16 +1,24 @@
 /* --- GLOBAL VARIABLES --- */
 :root {
-    --primary-color: #0e7490; /* Teal/Blue */
-    --secondary-color: #155e75; /* Darker Teal */
-    --accent-color: #f59e0b; /* Warm Amber for highlights */
-    --bg-light: #f8fafc; /* Very light gray/blue background */
+    /* CGU Core Colors */
+    --primary-color: #7a1f1b;     /* CGU Maroon */
+    --secondary-color: #4b0f0c;   /* Deep Maroon */
+    --accent-color: #c9a24d;      /* Muted Gold */
+    
+    /* Backgrounds */
+    --bg-light: #f6f5f3;          /* Warm off-white */
     --bg-white: #ffffff;
-    --text-dark: #1e293b;
-    --text-light: #64748b;
+
+    /* Text */
+    --text-dark: #1f2933;         /* Charcoal */
+    --text-light: #5f6c72;
     --text-white: #ffffff;
-    --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+
+    /* UI */
+    --shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
     --radius: 8px;
 }
+
 
 /* --- RESET & TYPOGRAPHY --- */
 * {
