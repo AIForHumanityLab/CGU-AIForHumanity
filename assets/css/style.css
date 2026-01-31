@@ -129,7 +129,7 @@ nav {
 
 /* --- HERO SECTION --- */
 .hero {
-    background: linear-gradient(rgba(122, 31, 27, 0.85), rgba(75, 15, 12, 0.85)), url('../images/hero-bg.jpg'); /* You can add a bg image */
+    background: linear-gradient(rgba(175, 30, 39, 0.88), rgba(175, 30, 39, 0.88)), url('../images/hero-bg.jpg'); /* You can add a bg image */
     background-size: cover;
     background-position: center;
     color: var(--text-white);
@@ -197,8 +197,8 @@ nav {
 
 /* Footer */
 footer {
-    background-color: var(--text-dark);
-    color: var(--text-white);
+    background-color: #af1e27;   /* CGU red */
+    color: #ffffff;
     padding: 4rem 0 2rem 0;
 }
 
@@ -210,9 +210,22 @@ footer {
     margin-bottom: 2rem;
 }
 
-.footer-col h4 { color: var(--text-white); margin-bottom: 1.5rem; }
-.footer-col a { color: #cbd5e1; display: block; margin-bottom: 0.5rem; }
-.footer-col a:hover { color: var(--accent-color); }
+.footer-col h4 {
+    color: #ffffff;
+    margin-bottom: 1.5rem;
+}
+
+.footer-col a {
+    color: #f3dcdc;              /* soft light red/white */
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.footer-col a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
 
 /* --- RESPONSIVE --- */
 @media (max-width: 768px) {
