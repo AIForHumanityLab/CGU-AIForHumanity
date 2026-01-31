@@ -129,7 +129,7 @@ nav {
 
 /* --- HERO SECTION --- */
 .hero {
-    background: linear-gradient(rgba(175, 30, 39, 0.88), rgba(175, 30, 39, 0.88)), url('../images/hero-bg.jpg'); /* You can add a bg image */
+    background: linear-gradient(rgba(122, 31, 27, 0.88), rgba(122, 31, 27, 0.88)), url('../images/hero-bg.jpg'); /* You can add a bg image */
     background-size: cover;
     background-position: center;
     color: var(--text-white);
@@ -197,7 +197,7 @@ nav {
 
 /* Footer */
 footer {
-    background-color: #af1e27;   /* CGU red */
+    background-color: #7a1f1b;   /* CGU maroon */
     color: #ffffff;
     padding: 4rem 0 2rem 0;
 }
@@ -216,15 +216,15 @@ footer {
 }
 
 .footer-col a {
-    color: #f3dcdc;              /* soft light red/white */
+    color: #e6d6d6;              /* soft muted white */
     display: block;
     margin-bottom: 0.5rem;
 }
 
 .footer-col a:hover {
     color: #ffffff;
-    text-decoration: underline;
 }
+
 
 
 /* --- RESPONSIVE --- */
