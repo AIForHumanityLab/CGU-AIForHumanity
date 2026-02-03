@@ -8,6 +8,48 @@
     <!-- Font Awesome for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
+    <div id="personModal" class="person-modal">
+    <div class="person-modal-content">
+        <span class="person-close" onclick="closePerson()">&times;</span>
+        <h3 id="modalName"></h3>
+        <p id="modalRole" class="text-light"></p>
+        <p id="modalFocus"></p>
+        <p id="modalBio"></p>
+    </div>
+</div>
+<script>
+const peopleData = {
+    itamar: {
+        name: "Dr. Itamar Shabtai, PhD",
+        role: "Founder and Co-Director, AI for Humanity Lab",
+        focus: "Research focus: AI and innovation, ethical AI, governance, and human-centered systems.",
+        bio: "Dr. Itamar Shabtai is the founder of the AI for Humanity Lab and Director of CISAT at Claremont Graduate University. He brings over 30 years of leadership experience in higher education, healthcare, and technology."
+    },
+    david: {
+        name: "Dr. David Sprott, PhD",
+        role: "Co-Director, AI for Humanity Lab",
+        focus: "Focus: Organizational leadership, institutional strategy, and the future of higher education.",
+        bio: "David Sprott is Dean and Professor of Marketing at the Drucker Institute at Claremont Graduate University, and Co-Director of the AI for Humanity Lab."
+    }
+};
+
+function openPerson(card) {
+    const key = card.getAttribute("data-person");
+    const person = peopleData[key];
+
+    document.getElementById("modalName").innerText = person.name;
+    document.getElementById("modalRole").innerText = person.role;
+    document.getElementById("modalFocus").innerText = person.focus;
+    document.getElementById("modalBio").innerText = person.bio;
+
+    document.getElementById("personModal").style.display = "block";
+}
+
+function closePerson() {
+    document.getElementById("personModal").style.display = "none";
+}
+</script>
+
 <body>
 
     <!-- NAVIGATION -->
