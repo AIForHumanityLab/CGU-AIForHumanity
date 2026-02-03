@@ -107,32 +107,8 @@ nav {
     height: 72px;
 }
 
-/* FIX logo alignment for image */
-.logo {
-    display: flex;
-    align-items: center;
-}
-
-.logo img {
-    height: 42px;      /* adjust between 40–48 if needed */
-    width: auto;
-    display: block;
-}
-
-.nav-links {
-    display: flex;
-    gap: 30px;
-}
-
-.nav-links a {
-    font-weight: 600;
-    color: var(--text-dark);
-}
-
-.nav-links a:hover, .nav-links a.active {
-    color: var(--primary-color);
-}
-
+/* People Section */ 
+.person-card img { width: 100px; height: 100px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem; border: 3px solid var(--primary-color); }
 /* --- HERO SECTION --- */
 .hero {
     background: linear-gradient(rgba(122, 31, 27, 0.88), rgba(122, 31, 27, 0.88)), url('../images/hero-bg.jpg'); /* You can add a bg image */
