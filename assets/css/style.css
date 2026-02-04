@@ -190,6 +190,41 @@ nav {
     font-size: 0.9rem;
 }
 
+/* Clickable card cue */
+.person-card {
+    cursor: pointer;
+}
+
+/* Modal overlay */
+.person-modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+    z-index: 3000;
+}
+
+/* Modal card */
+.person-modal-content {
+    background: #ffffff;
+    max-width: 650px;
+    margin: 8% auto;
+    padding: 2.5rem;
+    border-radius: var(--radius);
+    position: relative;
+    line-height: 1.7;
+}
+
+/* Close button */
+.person-close {
+    position: absolute;
+    top: 14px;
+    right: 18px;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+
 
 /* Get Involved Form Styles */
 .form-group { margin-bottom: 1.5rem; }
