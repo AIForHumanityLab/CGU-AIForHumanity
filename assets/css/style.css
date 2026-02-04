@@ -111,7 +111,7 @@ nav {
 
 /* Lock logo size */
 .logo img {
-    height: 50px;                  /* 🔑 prevents overflow */
+    height: 45px;                  /* 🔑 prevents overflow */
     width: auto;
     display: block;
 }
